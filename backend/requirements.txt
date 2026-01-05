@@ -1,0 +1,29 @@
+# --- Core Framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.3
+
+# --- Database (SQLAlchemy ORM + SQLite/PostgreSQL) ---
+SQLAlchemy==2.0.32
+
+# --- Web Crawling & Parsing ---
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# --- Scheduling (background crawler) ---
+APScheduler==3.10.4
+
+# --- Environment Variables ---
+python-dotenv==1.0.1
+
+# --- CORS for React frontend ---
+fastapi-cors==0.0.6
+
+# --- Optional: Tor integration (SOCKS5 support) ---
+PySocks==1.7.1
+
+# --- Telegram & Email Alerts ---
+httpx==0.27.0
+smtplib==1.0.0
+
+# --- Data validation (used internally by FastAPI/Pydantic) ---
+pydantic==2.7.4
